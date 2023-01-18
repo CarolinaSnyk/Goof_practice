@@ -4,7 +4,7 @@ env:
   parameter-store:
     # Requires that you have a secure string in AWS Systems Manager Parameter Store
     # called "snykAuthToken" with your Snyk token.
-    SNYK_TOKEN: "authsnyk"
+    SNYK_TOKEN: "snykAuthToken"
     SNYK_ORG: "TargetOrg"
 
 phases:
