@@ -15,4 +15,4 @@ phases:
      
   build:
     commands:
-      - snyk container test abindasnyk/nodejs-goof-ab
+      - snyk container test abindasnyk/nodejs-goof-ab #this is the container image name
